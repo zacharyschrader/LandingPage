@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color:#f9faf8;
+  background-color: #3882f6;
+}
+
+.introduction img {
+  width: 400px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 12px 124px
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;  
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+}
+
+.promotion {
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+a, .promotion .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+
+}
+
+.graphics {
+  display: flex;
+  font-size: 14px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+}
+
+.phrase {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+}
+
+.action {
+  color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
